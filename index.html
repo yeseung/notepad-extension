@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Mini Notepad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="width: 500px;">
+<main class="wrap">
+    <section id="sticky-note" class="panel" aria-label="Notepad panel">
+        <div class="note-header">
+            <span>Mini Notepad</span>
+        </div>
+        <textarea id="note-text" placeholder="Write your note here..." aria-label="Note input"></textarea>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px;gap:8px">
+            <div class="btn-row">
+                <button class="btn" type="button" id="copy-btn">COPY</button>
+                <button class="btn" type="button" id="clear-btn">CLEAR</button>
+                <button class="btn" type="button" id="download-btn">.TXT</button>
+            </div>
+            <div id="save-state" class="muted" aria-live="polite">Saved</div>
+        </div>
+
+        <div class="openbar">
+            <div style="margin-left:0px;font-size:12px;color:#666">
+              Shortcuts: <span class="kbd">Ctrl/⌘</span> + <span class="kbd">S</span> (save),
+              <span class="kbd">C</span> (copy), <span class="kbd">D</span> (download)
+            </div>
+            <div style="margin-top:8px;font-size:12px;color:#666">
+                Notes are stored in your browser <code>localStorage</code>. Using Incognito mode or restricted environments may prevent saving.
+            </div>
+        </div>
+    </section>
+</main>
+<div class="footer">
+    [AD]&nbsp;&nbsp;<a href="https://kimtaja.com/?c=enproverb" target="_blank" rel="noreferrer">Online Typing Practice - https://kimtaja.com</a>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

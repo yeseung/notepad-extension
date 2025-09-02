@@ -1,10 +1,10 @@
-# 산성비 게임
+# Mini Notepad
 
 배포
-* https://chromewebstore.google.com/detail/%EC%82%B0%EC%84%B1%EB%B9%84-%EA%B2%8C%EC%9E%84/nmkganmfbcjfjapgcmlilnhoddaokego
+* https://chromewebstore.google.com/detail/mini-notepad/ogdbjjojbhllfhhgpopfjceiphephmdb?authuser=0&hl=ko
+
+<br><br>
 
 
+![스크린샷 2025-09-02 오후 9 14 57](https://github.com/user-attachments/assets/95571cb9-98a0-4a35-af03-5381b35e8f44)
 
-
-
-![스크린샷 2025-04-11 오전 9 40 14](https://github.com/user-attachments/assets/33af0343-fc3d-43be-bf18-ca16af63aa38)
